@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_time_table_info"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="mentorship.student.com.studentmentorship.TimeTableInfo">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/disclaimerText"
+            android:text="NOTE
+Time table subject to any specific time table specified by Dept. and meant to be used only for easy reference. App developers won't be held liable for any discrepancies in cases when a time table doesn't strictly follow central time table and subject to changes by any Dept.WELCOME"
+            android:textColor="@color/colorPrimary"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/nosubjectEt"
+            android:hint="enter no of subjects alloted"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="submit"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/subjectnosubmitBTN"
+            />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
+
+
+</android.support.v4.widget.NestedScrollView>

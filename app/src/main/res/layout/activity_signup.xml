@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_signup"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="mentorship.student.com.studentmentorship.signup"
+    android:orientation="vertical">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:inputType="textPersonName"
+        android:hint="rollno"
+        android:ems="10"
+
+        android:id="@+id/editTextRollNo" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:inputType="textPersonName"
+        android:hint="Name"
+        android:ems="10"
+        android:id="@+id/editTextName"
+        />
+
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:ems="10"
+
+        android:id="@+id/editTextPassword"
+        />
+
+
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:inputType="phone"
+        android:hint="Mobile"
+        android:ems="10"
+
+        android:layout_alignParentEnd="true"
+
+        android:id="@+id/editTextMobileNo" />
+
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:inputType="textEmailAddress"
+        android:hint="Email "
+        android:ems="10"
+        android:id="@+id/editTextEmailId"
+       />
+
+
+
+
+
+    <Button
+        android:text="SIGN UP!"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="bottom"
+        android:id="@+id/buttonSignUp" />
+</LinearLayout>

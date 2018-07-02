@@ -1,0 +1,1024 @@
+<!--
+<resources>
+    <string name="app_name">SMP</string>
+    <string name="first_yr_book_list">BOOK LIST</string>
+    <string name="info">
+        1.<b>ENGINEERING MECHANICS:</b>
+        \n \n
+        \t <b>Essential Reading</b>:
+        \n \t \t a) S. P. Timoshenko, D. H. Young, and J. V. Rao:
+        \n \t \t Engineering Mechanics (Fourth edition),
+        \n \t \t Tata-McGraw Hill,
+        \n \t \t Special Indian Edition, 2007.
+        \n \t \t b) R. C. Hibbeler,
+        \n \t \t Engineering Mechanics
+        \n \t \t (Statics and Dynamics),
+        \n \t \t Pearson Education Asia Pvt. Ltd, 2000.
+        \n \t<b>Supplementary Reading</b>:
+        \n \t \t a) A.K. Tayal,
+        \n \t \t Engineering Mechanics,
+        \n \t \t Umesh Publications, Delhi, 11th edition, 2001.
+        \n \t \t b) F. P. Beer and E. R. Johnston,
+        \n \t \t Mechanics for Engineers (Static and Dynamics),
+        \n \t \t 7th edition,
+        \n \t \t McGraw Hill International Student Edition, 2003
+        \n \t \t c) J. L. Meriam and L.G. Kraige,
+        \n \t \t Engineering Mechanics (Static and Dynamics),
+        \n \t \t John Wiley, 2002.
+        \n \n
+        2.<b>ENVIRONMENT AND SAFETY ENGINEERING:</b>
+        \n \n
+        \t <b>Essential Reading</b>:
+        \n \t \t a) M. L. Davis and D. A Cornwell,
+        \n \t \t Introduction to Environmental Engineering,
+        \n \t \t McGraw Hill International,
+        \n \t \t 2005 Engineering Mechanics (Fourth edition),
+        \n \t \t Tata-McGraw Hill,
+        \n \t \t Special Indian Edition, 2007.
+        \n \t \t b)B. S. Dhillon, Engineering Safety: Fundamentals,
+        \n \t \t Techniques,
+        \n \t \t Applications,
+        \n \t \t World Scientific. 2003
+        \n \t<b>Supplementary Reading</b>:
+        \n \t \t a) G. Kiely,
+        \n \t \t Environmental Engineering,
+        \n \t \t McGraw Hill Int. 2004
+        \n \n
+        3.<b>BASIC ELECTRICAL ENGINEERING:</b>
+        \n \n
+        \t <b>Essential Reading</b>:
+        \n \t \t a) E. Hughes,
+        \n \t \t Electrical Technology, ELBS, 1997.
+        \n \t<b>Supplementary Reading</b>:
+        \n \t \t a) V. D. Toro,
+        \n \t \t Basic Electrical Engineering,
+        \n \t \t PHI, 2000.
+        \n \n
+        4.<b>COMMUNICATIVE ENGLISH:</b>
+        \n \n
+        \t <b>Essential Reading</b>:
+        \n \t \t a) Mukerjee, H. S. (2013).
+        \n \t \t Business Communication: Connecting at Work.
+        \n \t \t New Delhi: OUP.
+        \n \t \t b) Kumar Sanjay and Pushp Lata (2011),
+        \n \t \t Communication Skills, New Delhi: OUP.
+        \n \t<b>Supplementary Reading</b>:
+        \n \t \t a) Hart, Steve, Nair,
+        \n \t \t A. R. and Bhambhani V. (2016).
+        \n \t \t Embark: English for Undergraduates.
+        \n \t \t New Delhi: Cambridge University Press.
+        \n \t \t b) Clark, S and G. Pointon (2004).
+        \n \t \t Word for Word, New Delhi: OUP.
+        \n \t \t c) Nurnberg, M and M. Rosenblum (2000).
+        \n \t \t All about Words:
+        \n \t \t An Adult Approach to Vocabulary Building,
+        \n \t \t New Delhi:
+        \n \t \t W.R. Goyal Publishers and Distributors.
+        \n \n
+        5.<b>DIFFERENTIAL, INTEGRAL AND VECTOR CALCULUS (MATH I):</b>
+        \n \n
+        \t <b>Essential Reading</b>:
+        \n \t \t a) E. Kreyszig,
+        \n \t \t Advanced Engineering Mathematics,
+        \n \t \t 10th Edition, John Wiley and Sons, 2010.
+        \n \t \t b) T. M. Apostol,
+        \n \t \t Calculus, Volume I and II, 2nd Edition,
+        \n \t \t John Wiley and Sons, 1967.
+        \n \t \t c) Thomas and etc. ,
+        \n \t \t Thomas Calculus 12th Edition,
+        \n \t \t Pearson, 2015.
+        \n \n
+        6.<b>PHYSICS-I</b>
+        \n \n
+        \t <b>Essential Reading</b>:
+        \n \t \t a) A. Beiser,
+        \n \t \t Concept of Modern Physics ,
+        \n \t \t Tata-McGraw Hill, 6th edition (2009)
+        \n \t<b>Supplementary Reading</b>:
+        \n \t \t a) R. Resnick and R. Eisberg,
+        \n \t \t Quantum Physics: Of Atoms,
+        \n \t \t Molecules, Solids,
+        \n \t \t Nuclei And Particles, 2nd Edition
+        \n \t \t b) K.S. Krane,
+        \n \t \t Modern Physics,
+        \n \t \t Wiley, 3rd edition (2012)
+        \n \t \t c) D.J. Griffith,
+        \n \t \t Introduction to Quantum Mechanics,
+        \n \t \t Pearson (2007)
+        \n \t \t d) R. Resnick, Relativity,
+        \n \t \t Wiley Eastern Pvt. Ltd. (2007)
+        \n \n
+        7.<b>BASIC ELECTRONICS ENGINEERING</b>
+        \n \n
+        \t <b>Essential Reading</b>
+        \n \t \t a) Microelectronic Circuits,
+        \n \t \t Oxford University Press,
+        \n \t \t S. Sedra and K. C. Smith;
+        \n \t \t Sixth edition
+        \n \t \t b) Electronic Devices and Circuit,
+        \n \t \t Boylestad, Robert L., Louis Nashelsky,
+        \n \t \t Pearson Education India;
+        \n \t \t 11 editions (2015)
+        \n \t \t c) Digital Fundamentals,
+        \n \t \t Floyd, Pearson Education India;
+        \n \t \t 10 edition
+        \n \t \t d) Electronic Devices and Circuits:
+        \n \t \t David. A. Bell;
+        \n \t \t Oxford University Press, 5th Edn.
+        \n \t<b>Supplementary Reading:</b>
+        \n \t \t a) Electronics A Systems Approach,
+        \n \t \t Neil Storey 4th Edition, Pearson
+        \n \t \t b)Electronic Principles,
+        \n \t \t Tata McGraw Hill,
+        \n \t \t Albert Malvino and David J Bates;
+        \n \t \t 7th Edition
+        \n \t \t c) Morris Mano “Digital Computer Design”,
+        \n \t \t PHI 2003
+        \n \t \t d) Digital Principles and Applications,
+        \n \t \t Leach , Malvino, Saha,
+        \n \t \t McGraw Hill Education, Eighth edition
+        \n \n
+        8.<b>BIOLOGY</b>
+        \n \n
+        \t <b>Essential Reading</b>
+        \n \t \t a) Taylor DJ, Green NPO, Stout GW.
+        \n \t \t Biological Science.
+        \n \t \t 3rd edition (1997).
+        \n \t \t Cambridge University Press.
+        \n \t \t ISBN - 978-0521684170
+        \n \t \t b) Scott Freeman,
+        \n \t \t Biological Science,
+        \n \t \t 5th edition (2014).
+        \n \t \t Pearson, Boston.
+        \n \t \t ISBN 9780321743671.
+        \n \t \t c) Reece JB, Urry LA, Cain ML,
+        \n \t \t Wasserman SA, Minorsky PV, Jackson RB.
+        \n \t \t Campbell Biology: Global Edition.
+        \n \t \t 9th edition (2011).
+        \n \t \t Pearson. ISBN 978-0321739759
+        \n \t<b>Supplementary Reading</b>
+        \n \t \t a) Engner E, Ross R, Bailey D.
+        \n \t \t Concepts in Biology.
+        \n \t \t 11th edition (2005).
+        \n \t \t McGraw-Hill Education.
+        \n \t \t ISBN - 978-0070607484
+        \n \t \t b) Reece JB, Taylor MR,
+        \n \t \t Simon EJ, Dickey JL.
+        \n \t \t Campbell Biology:
+        \n \t \t Concepts and Connections,
+        \n \t \t Global Edition, 8th edition (2015),
+        \n \t \t Pearson, ISBN-9781292057804
+        \n \t \t c) Satyanarayana U, Chakrapani U.
+        \n \t \t Biochemistry. 4th edition (2013).
+        \n \n
+        9.<b>CHEMISTRY</b>
+        \n \n
+        \t <b>Essential Reading:</b>
+        \n \t \t a) P. W. Atkins,
+        \n \t \t Elements of Physical Chemistry,
+        \n \t \t 4th Ed., Oxford University Press,
+        \n \t \t 2007.
+        \n \t \t b) F. A. Carey, R. M. Guuliano,
+        \n \t \t Organic Chemistry,
+        \n \t \t Mcgraw-Hill, 6th edition,
+        \n \t \t 2006.
+        \n \t \t c) J.D. Lee,
+        \n \t \t Concise Inorganic Chemistry,
+        \n \t \t 5th edition, Blackwell Publishing,
+        \n \t \t 2008.
+        \n \t \t d) Fundamentals of molecular spectroscopy,
+        \n \t \t C. N. Banwell, E. N. McCash
+        \n \t \t Tata McGraw-Hill Education, 1994.
+        \n \t <b>Supplementary Reading:</b>
+        \n \t \t a) J. Singh, L.D.S. Yadav,
+        \n \t \t Advanced Organic Chemistry,
+        \n \t \t Pragati Prakashan, 2009.
+        \n \t \t b) J. E. Huheey, E. A. Keiter
+        \n \t \t and R. L. Keiter,
+        \n \t \t Inorganic Chemistry,
+        \n \t \t Principles of structure and reactivity,
+        \n \t \t Harper Collins, 1993.
+        \n \t \t c) Clayden, Greeves, Warren and Wothers,
+        \n \t \t Organic Chemistry,
+        \n \t \t Oxford, 2001.
+        \n \t \t d) B. R. Puri, L. R. Sharma,
+        \n \t \t M. S. Pathania,
+        \n \t \t Principles of physical Chemistry,
+        \n \t \t Shoban Lal Nagin Chand and Co., 2001.
+        \n \n
+        10.<b>MATHEMATICS-II</b>
+        \n \n
+        \t <b>Essential Reading:</b>
+        \n \t \t  a) E. Kreyszig,
+        \n \t \t  Advanced Engineering Mathematics,
+        \n \t \t  10th Edition,
+        \n \t \t  John Wiley and Sons, 2010.
+        \n \t<b>Suggested Readings:</b>
+        \n \t \t a) G. F. Simmons and S. G. Krantz,
+        \n \t \t Differential Equations:
+        \n \t \t Theory, Technique and Practice,
+        \n \t \t Tata McGraw-Hill Education, 2006.
+        \n \t \t b) G. Strang,
+        \n \t \t Linear Algebra and its applications,
+        \n \t \t 4th Edition,
+        \n \t \t Cengage Learning, 2005.
+        \n \t \t c) K. Hoffman and R. A. Kunze,
+        \n \t \t Linear Algebra,
+        \n \t \t Prentice Hall of India, 2002.
+        \n \t \t d) Kawk And Hong,
+        \n \t \t Linear Algebra
+        \n \t \t e) N. Piskunuv,
+        \n \t \t Differential and Integral Calculus
+        \n \n
+        11.<b>PHYSICS-II</b>
+        \n \n
+        \t <b>Essential Reading:</b>
+        \n \t \t a) A. Beiser,
+        \n \t \t Concept of Modern Physics ,
+        \n \t \t Tata-McGraw Hill,
+        \n \t \t 6th edition (2009)
+        \n \t<b>Supplementary Reading:</b>
+        \n \t \t a) R. Resnick and R. Eisberg,
+        \n \t \t Quantum Physics:
+        \n \t \t of Atoms, Molecules, Solids,
+        \n \t \t Nuclei and Particles,
+        \n \t \t 2nd Edition
+        \n \t \t b) K.S. Krane,
+        \n \t \t Modern Physics,
+        \n \t \t Wiley, 3rd edition (2012)
+        \n \t \t c) A. J. Dekker,
+        \n \t \t Solid State Physics,
+        \n \t \t (Prentice-Hall of India).
+        \n \t \t d) M. A. Wahab,
+        \n \t \t Solid State Physics:
+        \n \t \t Structure and
+        \n \t \t Properties of Materials,
+        \n \t \t Narosa Publishing House
+        \n \n
+        12.<b>BASIC PROGRAMMING and DATA STRUCTURE</b>
+        \n \n
+        \t \t a) Byron S. Gottfried,
+        \n \t \t Theory and Problems of
+        \n \t \t Programming With C,
+        \n \t \t McGraw Hill Education, 3 ed, 2010.
+        \n \t \t b) Ashok N. Kamthane and
+        \n \t \t Amit A. Kamthane,
+        \n \t \t Programming in C,
+        \n \t \t Pearson Education, 3 ed, 2016.
+        \n \n
+    </string>
+
+    <string name="important_phone_numbers">IMPORTANT PHONE NUMBERS</string>
+    <string name="phone_no">
+        1.<b>ACADEMIC PURPOSES:</b>
+\n \n
+\t a) Director
+\n \t \t Prof. Animesh Biswas
+\n \t \t Office: 2003
+\n \t \t Chamber: 2001
+\n \t \t Res:  3001
+\n \t \t Ph : 2472050[O]
+\n \t \t \t 2472081[R]
+\n \t \t \t 2472926[Fax]
+\n \t b) Deputy Registrar [Academic]:
+\n \t \t Office: 2032
+\n \t \t Chamber: 2031
+\n \t \t Res:  3031
+\n \t \t Ph: 2462039[Fax]
+\n \n
+        2.<b>EMERGENCY:</b>
+\n \n
+\t a) Security Officer
+\n \t \t Prof. Uttam K. Mishra
+\n \t \t Qrs. No. D - 09, NIT Campus
+\n \t \t Ph: 2310 (O), 3310 (R)
+\n \t \t Mob: 9437684846
+\n \t b) Counselor
+\n \t \t Kalyani Mishra
+\n \t \t Mob: 9861074304
+\n \t c) Fire
+\n \t \t  Ph : 101, (0661) 2501201, 2510095
+\n \t d) Rourkela General Hospital
+\n \t \t Ph : 2502039
+\n \t e) RGH Blood Bank
+\n \t \t Ph : 2508770
+\n \t f) Sector-3 Police station
+\n \t \t Ph : 2646227
+\n \t g) Mahila Police station
+\n \t \t Ph : 2647800
+\n \n
+        3.<b>MEDICAL EMERGENCY:</b> \n \n \t
+        a) Medical Vehicle:
+\n \t \t Sri Anup Mohanty
+\n \t \t Qrs. No. F/101, NIT Campus
+\n \t \t Ph: 2222 (R)
+\n \t \t Mob: 9437306577\n
+    \t b) CWS:  (0661) 2473931 ,2473927 \n
+    \t c) IGH: (0661) 2640324 \n
+        \t \t Ambulance : (0661) 2646202 \n
+        \t d) Apollo Pharmacy: \n
+\t \t Sri R. C. Behera
+\n \t \t Qrs. No. F/46, NIT Campus
+\n \t \t Ph: 2113 (O)
+\n \t \t Mob: 9937112457 \n \n
+         4.<b>DOCTORS:</b> \n \n
+\t  a) Dr. C. Bhattacharyya
+\n \t \t Head , Health Centre
+\n \t \t Qrs. No. D/4, NIT Campus
+\n \t \t Ph: 2111 (O), 3111 (R)
+\n \t \t Mob: 8895298094
+\n \t b) Dr. (Mrs.) Anindita Debata
+\n \t \t Qrs. No. FR/15, NIT Campus
+\n \t \t Ph: 2112 (O), 3112 (R)
+\n \t \t Mob: 9861303809
+\n \n
+        5.<b>ESSENTIAL STORES : </b> \n \n
+\t a) JD (The one stop stationery store)
+\n \t \t Ph: 8895025848
+\n \t b) AMUL ( for your dairy cravings )
+\n \t \t Ph: 9040666461
+\n \t b) JAM ( home delivery at Rs. 20 )
+\n \t \t Ph: 9937497447
+\n \n
+
+    </string>
+    <string name="club_info">CLUB INFO</string>
+   <string name="club_a"><b>DEBATING AND PUBLIC SPEAKING</b> \n \n
+<b>Clarion</b> \n Clarion has not only made its mark in the institute but also across various renowned debating societies across the country. Clarionites indulge in parliamentary debating which develops  their sense of logic and public speaking skills.
+\n <b>Hour Glass</b> \n The Toastmasters conduct regular sessions that involve thinking on ones feet and expressing oneself with clarity. Valuable skills are gained in the process.
+\n \n <b>MUSIC</b> \n \n
+<b>Euphony</b> \n The official rock band of NITR, this club definitely quenches your thirst for music.
+\n <b>Heartbeats</b> \n An amazing platform to showcase your talent, Heartbeat strives to create an amazing blend of classical and trendy western music.
+\n \n <b>CODING AND AUTOMATION</b> \n\n
+<b>Cyborg</b> \n If the world of  Robotics and Automation fascinates you, there is no place as thrilling for you.
+\n <b>Codehub</b> \n For all the coding geeks out there, there is no better place to interact with other nerdy programmers  have exactly the same interests as you.
+\n <b>Spawn</b> \n Spawns aims to spread knowledge on networking related issues such as network security, web development and designing, web based scripting and networking on mobile.
+\n \n <b>PAINTING AND DESIGNING</b> \n
+\n <b>Chitraang</b> \n A perfect blend of diverse ideas and thoughts radiate with the colours Chitraang invigorates the NITR JUNTA.
+\n <b>Design Tab</b> \n It encompasses all aspects of designing and renders an extremely productive environment for upcoming designers.
+\n \n <b>SOCIAL SERVICE</b> \n \n
+The best way to find yourself is to lose yourself in the services of others. Aasra, Leo, Rotaract are glaring examples of what dedication to uplift the poor and the destitute can result in. Today slums in Rourkela are witnessing students  with no resources  rise to new heights because of the presence of these wonderful organizations.
+\n \n
+    </string>
+    <string name="about_us">ABOUT US</string>
+    <string name="about">
+     \t \t The Student Mentorship Program App (SMPA) is an initiative of 3rd year B. Tech CSE students in collaboration of pre-final and year students (mentors) of NITR as a part of their Product Development Laboratory Course. \n
+\t \t It is a link between freshers (mentees) and mentors to realize the different aspects of the Student Mentorship Program Of NIT Rourkela lead by Monday Morning, with strong support from Prof. B. Majhi, Dean (Academics) with the objective of bridging the gap between the seniors and the freshers and forge relationships that will not only help them settle into their lives here, but also keep them from being lead ashtray.
+\n \n \t <b>OUR TEAM</b> \n \n
+<b> App Developers/Admins</b>: \n
+-	Lipsa Chhotray (9437006092) \n
+-	Dattatreya Tripathy (8458075461) \n
+-	Daisy Das (7978356240) \n
+-	Deepa Mahima Majhi (8093271771) \n
+-	Medha Madhusmita (8596052522) \n
+-	Rituparna Adha (8455992010) \n \n
+<b> Mentors</b> \n
+-	Surabhi Seth (9776809807) \n
+-	Yogesh Singla (7990553041) \n
+-	Medha Madhusmita (8596052522) \n
+-	Nikhil Vobbilisetty (9493887893) \n
+-	Pratik Jain (8984819827) \n
+
+    </string>
+    <color name="white">#FFFFFF</color>
+</resources>
+ -->
+
+<resources>
+    <string name="app_name">SMP</string>
+    <string name="aca">ACADEMICS</string>
+    <string name="hos">HOSTEL</string>
+    <string name="med">MEDICAL EMERGENCY</string>
+    <string name="club_info">CLUB INFO</string>
+   <string name="club_a"><b>DEBATING AND PUBLIC SPEAKING</b> \n \n
+<b>Clarion</b> \n Clarion has not only made its mark in the institute but also across various renowned debating societies across the country. Clarionites indulge in parliamentary debating which develops  their sense of logic and public speaking skills.
+\n <b>Hour Glass</b> \n The Toastmasters conduct regular sessions that involve thinking on ones feet and expressing oneself with clarity. Valuable skills are gained in the process.
+\n \n <b>MUSIC</b> \n \n
+<b>Euphony</b> \n The official rock band of NITR, this club definitely quenches your thirst for music.
+\n <b>Heartbeats</b> \n An amazing platform to showcase your talent, Heartbeat strives to create an amazing blend of classical and trendy western music.
+\n \n <b>CODING AND AUTOMATION</b> \n\n
+<b>Cyborg</b> \n If the world of  Robotics and Automation fascinates you, there is no place as thrilling for you.
+\n <b>Codehub</b> \n For all the coding geeks out there, there is no better place to interact with other nerdy programmers  have exactly the same interests as you.
+\n <b>Spawn</b> \n Spawns aims to spread knowledge on networking related issues such as network security, web development and designing, web based scripting and networking on mobile.
+\n \n <b>PAINTING AND DESIGNING</b> \n
+\n <b>Chitraang</b> \n A perfect blend of diverse ideas and thoughts radiate with the colours Chitraang invigorates the NITR JUNTA.
+\n <b>Design Tab</b> \n It encompasses all aspects of designing and renders an extremely productive environment for upcoming designers.
+\n \n <b>SOCIAL SERVICE</b> \n \n
+The best way to find yourself is to lose yourself in the services of others. Aasra, Leo, Rotaract are glaring examples of what dedication to uplift the poor and the destitute can result in. Today slums in Rourkela are witnessing students  with no resources  rise to new heights because of the presence of these wonderful organizations.
+\n \n
+    </string>
+    <string name="about_us">ABOUT US</string>
+    <string name="about">
+     \t \t The Student Mentorship Program App (SMPA) is an initiative of 3rd year B. Tech CSE students in collaboration of pre-final and year students (mentors) of NITR as a part of their Product Development Laboratory Course. \n
+\t \t It is a link between freshers (mentees) and mentors to realize the different aspects of the Student Mentorship Program Of NIT Rourkela lead by Monday Morning, with strong support from Prof. B. Majhi, Dean (Academics) with the objective of bridging the gap between the seniors and the freshers and forge relationships that will not only help them settle into their lives here, but also keep them from being lead ashtray.
+\n \n \t <b>OUR TEAM</b> \n \n
+<b> App Developers/Admins</b>: \n
+-	Lipsa Chhotray (9437006092) \n
+-	Dattatreya Tripathy (8458075461) \n
+-	Daisy Das (7978356240) \n
+-	Deepa Mahima Majhi (8093271771) \n
+-	Medha Madhusmita (8596052522) \n
+-	Rituparna Adha (8455992010) \n \n
+<b> Mentors</b> \n
+-	Surabhi Seth (9776809807) \n
+-	Yogesh Singla (7990553041) \n
+-	Medha Madhusmita (8596052522) \n
+-	Nikhil Vobbilisetty (9493887893) \n
+-	Pratik Jain (8984819827) \n
+
+    </string>
+    <string name="misc">U MUST KNOW!!!</string>
+    <string name="misc_info_head">
+        <b>**  For the contact numbers of all people in NITR you may need, please click on the button below</b>
+    </string>
+    <string name="misc_info">
+        <b>Q1. Which is the nearest bank in campus?</b> \n
+        Ans: State Bank of India, NIT Rourkela branch, which is located on the  First Street following the North Block Guest House.
+        For directions, check Map section in your app. You can contact them on0661 2470713.
+        \n \n <b>Q2. Where is the nearest post office?</b> \n
+        Ans: NIT has its own post office near the Durga Pandal inside the campus. For directions, refer to Map section.
+        You can contact  them on 0661 2600698.
+        \n \n <b>Q3. Where is physics lab?</b> \n
+        Ans: Physics lab for first years is held on the first floor of the main building. You can go there by the Metallurgy department entrance.
+        Take the stairs on the left side after you enter the department and once you get to the first floor, search for the lab which is labelled as "PHYSICS LAB" on the nameplate on the door.
+        \n \n <b>Q4. Where is chemistry lab?</b> \n
+         Ans: Chemistry lab for first years is held on the second floor of the main building. You can go there by the Metallurgy department entrance.
+        Take the stairs on the left side after you enter the department and once you get to the second floor, search for the lab which is labelled as "CHEMISTRY LAB" on the nameplate on the door.
+        \n \n <b>Q5. Where will the classes be held?</b> \n
+        Ans: The regular theory classes are held in the Lecture Avenue, which is located on the bylane which is opposite to Ceramic department.
+        The physics and chemistry laboratories are conducted in the locations as given above. The computing laboratory is held in the Computing Lab-1 or 2 in the lecture avenue.
+        \n \n <b>Q6. Where and when are physical education classes held?</b>  \n
+        Ans: Physical education classes are held once a week in the Dilip Tirkey Stadium, which is located near Hexagon Restaurant.
+        Students are informed about their schedule via webmail.
+        \n \n <b>Q7. Are there any room to room laundry services available?</b> \n
+        Ans: Yes, there are for Boys Hostels. The laundry boys come for room to room cloth collection for laundry in all halls. In girls hostels the helpers take a reasonable amount of Rs 50 per bucket for laundry. Students can also directly go to the laundry shop near Homi Bhabha Hall of Residence for the same.
+        \n \n <b>Q8. Is there cycle repair shop inside the campus?</b>
+        Ans: Yes, there are 2 cycle repair shops near Homi Bhabha Hall of Residence. For more details, contact 7077373946.
+        \n \n <b>Q9. I am sick cannot attend classes. How to get leave?</b>
+        Ans: Go to the NITR health center located opposite to REC school. The locations can be found using the map section of the app. Approach the doctor there in the given visiting hours (10:30AM-12PM and 4:30PM-7PM) from Monday to Fridayand consult him for the same. If the doctor finds the reason for leave genuine he/she will update your leave for that day and it would be duly approved in your NITRIS portal.
+        In case of any health problems or sickness one can always reach the Apollo Pharmacy to get medicines.\n \n
+    </string>
+    <string name="acad">ACADEMICS</string>
+    <string name="acad_info_head">
+        <b>Q1. What is the list of books I should follow in my first year(Semseter 1 and 2)?</b> \n
+        Ans: For the booklist for first year, please click on this button below.
+    </string>
+    <!-- <string name="acad_info_head2">
+        \n
+        <b>Q2. In case of Academic purposes?</b> \n
+        Ans: For the important contact numbers of administrative in charges(like Registrar, Director etc), please click on this button below.
+    </string>-->
+    <string name="acad_info">
+        \n
+        <b>Q2. In case of Academic purposes?</b> \n
+        Ans: For the important contact numbers of administrative in charges(like Registrar, Director etc), please check the miscellaneous page of the app.
+        \n \n <b>Q3. What are the maximum number of absents I can have in a semester in each subject?</b> \n
+        Ans: Please check the corresponding pdf/circular as per your branch(B.Tech or M.Tech or Dual Degree or Int. Msc. etc) in the following urlhttp://www.nitrkl.ac.in/Academics/AcademicProcess/AcademicRegulations.aspx#
+        \n \n <b>Q4. How to issue a book from library and when and where and whom to return it?</b> \n
+        Ans: One can search for the required book in the INFORMATION KIOSK present inside the library premises. After searching for it one can know the place where the book is present through the information kiosk and then search the book there. After getting the book in order to issue it put your ID Card above the ISSUE/RETURN Machine followed by the book and then press "issue" button on the screen that comes.
+        \n \nFor any help consult the librarians present inside the premises and near the office. Then the machine would produce an issue slip on "success" which is to be shown to the security guard present outside the library and then he would provide the return date at which the book is to returned.
+        \n \nTo return the same put your ID Card again on the ISSUE/RETURN machine followed by your book to be returned and then press "Return" button on the screen that comes. On "success" a return slip would be generated which can be kept for any future references or discarded as per wish.
+        \n \nAgain one has to then keep the returned book on the shelf present beside the ISSUE/RETURN machine. As per the current norm the maximum limit for book issue is 4 books at a time and the fine for return of book for each day after the return date is Re1 per due-book. This information might vary as per the library rules.
+        \n \n <b>Q5. What is the policy of Book Exhibition how to avail books at institute book exhibitions?</b> \n
+        Ans: For details please refer to this urlhttp://www.nitrkl.ac.in/docs/AcademicRegulation/08032017102929726.pdf
+        \n \n <b>Q6. What is webmail?</b> \n
+        Ans: It is a intra campus mailing server powered by "Zimbra" for passage of any important information between students or teachers and students or the administrative body of NIT Roukela. For the freshers who have just registered for their webmail account in the computer centre. Their default username is their institute ROLL NO. and password is the one they are asked to give at the time of registration for the same.
+        \n \nOne can change password later by using the change password option in the webmail. On each day a student can send a maximum of 10 mails using this mail service exceeding which it would be marked as spam and his/her account would be blocked.
+        \n \nFor unblocking the same the concerned student has to visit the computer centre (preferably in Lecture Avenue(LA) or any other computer centre within campus(the one inside Metallury and Materials Engineering department for instance)) and mention about the same and get it unblocked for further using it.
+        \n \n <b>Q7. What is nitris></b> \n
+        Ans: Students can view their attendance, registration, examination and hostel details in the url https://eapplication.nitrkl.ac.in/nitris/Login.aspx
+        Their default username is their nitrkl roll no. and password is their webmail password. They can change the password later using change password option which comes after they log into their account.
+        This page also shows the weather conditions in Rourkela and has a calender and upcoming holiday details.
+        \n \n <b>Q8. Is there any kind of rule book for academic and disciplinary rules, if so how to access it?</b> \n
+        Ans: One can visit the given urlhttp://www.nitrkl.ac.in/Academics/AcademicProcess/AcademicRegulations.aspx for the same.
+        \n \n <b>Q9. I still have some doubts which are still unanswered here?</b> \n
+        Ans: You may contact us by visiting the about us page and getting our numbers there. If you have trouble accessing that page you can call us directly using the numbers given 7978020067, 8093271771.\n \n
+        \n \n
+    </string>
+    <string name="hostel">HOSTEL DETAILS</string>
+    <string name="hostel_info_head">
+        <b>Q1. I have problem with room, maintenance, mess food, have complaints, whom to contact?</b> \n
+        Ans: Given below is the list of all people you need to know for the same. Kindly press the button below for the same.
+    </string>
+    <string name="hostel_info">
+        \n
+        <b>Q2. What is the work of hall secretaries(mess secretary, maintenance secretary etc) and how they are selected and what if they dont turn up to their promises?</b> \n
+        Ans: Hall secreatries have the responsibility of maintaining decorum and harmony among the hall boarders inside the hall premises. They act as link between the warden, chief warden and the students and manage the hall affais and facilities to ensure a smooth stay of the boarders.
+        \n \nAs the names suggest the mess secretary decides the Mess Menu as per everones needs, environment secretary is concerned with the cleanliness issues in the hall, sports secretary takes care of the sports activities in the hall or among the halls(including intra and inter hall competitions) and keep track of all sports equipments of the hall, the general secretary manages all the hall activities(like Hall Day, garden fest) and supervises the work of other secretaries, cultural secretary works towards promoting cultural events in hall or among halls through competitions like Rangoli, face painting, T-shirt designing etc.
+        \n \nAll the secretaries are selected based on hall election results date and time of which are suitably notified to boarders/students through webmail and announcement. In case any of the post holders doesnot turn up to his/her duties well or students have any complaints against him/her they can submit a complaint letter in the warden office in suitable hours specifying the reason for the same.
+        \n \n <b>Q3. What is the procedure to change the room after first year?</b> \n
+        Ans: Generally students are alloted double seated rooms after their first year i.e. during their 3rd semester. So students desiring to get a specific room in a specific hostel/hall of residence need to form a group of their group of 2 or 3 or more(depending on number of students in their friend circle wanting to get room in same block or nearby or in same hall) and suitably send a letter (specifying their names and roll no. along with the details of the hall and room they want) to the Chief Warden and submit it in his office in working hours. If a student doesnot have a group or doesnot send any letter to the Chief Warden office for the same then he/she would be randomly alloted a hall and room based on availability and NITR Room Alottment Policy.
+        \n \n
+    </string>
+    <string name="hostel_contact_info_head">HALL CONTACT NUMBERS</string>
+    <string name="hostel_contact_details">
+     1.<b>DEAN STUDENT WELFARE</b>
+\n \n
+\t a) Prof. S. Panigrahi
+\n \t \t Qrs. No. A/06, NIT Campus
+\n \t \t Ph: 2723(O), 3723(R)
+\n \t \t Mob: 9437145313
+\n \n
+        2.<b>GD BIRLA HALL OF RESIDENCE</b>
+\n \n
+\t a) Hall Genral Secretary
+\n \t \t Mr Pratap Sagar Nayak(Room No. C/430)
+\n \t \t Mob: 9437319728
+\n \t b) Assistent Warden
+\n \t \t Prof. S. Kayal
+\n \t \t Qrs. No. BF/03, NIT Campus
+\n \t \t Ph: 2715(O), 3715(R)
+\n \t \t Mob: 8280468535
+\n \t c) Warden
+\n \t \t Prof. A.C. Pradhan
+\n \t \t Qrs. No. FD/39, NIT Campus
+\n \t \t Ph: 2735(O), 3735(R)
+\n \t \t Mob: 7894252258
+\n \t b) Electrician
+\n \t \t Pradeep Kumar Parida
+\n \t \t Ph: 5003(O)
+\n \t \t Mob: 9778583627
+\n \t c) Electrician
+\n \t \t Harihar Maharana
+\n \t \t Ph: 5003(O)
+\n \t \t Mob: 8984149339
+\n \t d) Plumber
+\n \t \t Suresh Chandra Jena
+\n \t \t Mob: 9861061557
+\n \t e) CRB
+\n \t \t Prasan Kumar Sahoo
+\n \t \t Mob: 9938416441
+\n \n
+        3.<b>MV HALL OF RESIDENCE</b>
+\n \n
+\t a) Hall Genral Secretary
+\n \t \t Mr Nair Anirudh Suresh(Room No. A/317)
+\n \t \t Mob: 7600472944
+\n \t b) Assistent Warden
+\n \t \t Prof. Anil Kumar Singh
+\n \t \t Qrs. No. FR/70, NIT Campus
+\n \t \t Ph: 2731(O), 3731(R)
+\n \t \t Mob: 9437804533
+\n \t c) Warden
+\n \t \t Prof. M.R. Tripathy
+\n \t \t Qrs. No. FD/39, NIT Campus
+\n \t \t Ph: 2707(O), 3707(R)
+\n \t \t Mob: 8018667075
+\n \t b) Electrician
+\n \t \t Pradeep Kumar Parida
+\n \t \t Ph: 5003(O)
+\n \t \t Mob: 9778583627
+\n \t c) Electrician
+\n \t \t Harihar Maharana
+\n \t \t Ph: 5003(O)
+\n \t \t Mob: 8984149339
+\n \t d) Plumber
+\n \t \t Suresh Chandra Jena
+\n \t \t Mob: 9861061557
+\n \t e) CRB
+\n \t \t Rabindranath Rath
+\n \t \t Mob: 8328934724, 9668148140
+\n \n
+         4.<b>CV RAMAN HALL OF RESIDENCE</b>
+\n \n
+\t a) Hall Genral Secretary
+\n \t \t Ms Sudha Priyadarshini(Room No. B/121)
+\n \t \t Mob: 9437938401
+\n \t b) Assistent Warden
+\n \t \t Prof. (Ms)Surabhi Verma
+\n \t \t Qrs. No. A/213, KMS Hall
+\n \t \t Ph: 2793(O)
+\n \t \t Mob: 8054151391
+\n \t c) Warden
+\n \t \t Prof. (Mrs)Poonam Singh
+\n \t \t Qrs. No. A/04, NIT Campus
+\n \t \t Ph: 2460(O), 3460(R)
+\n \t \t Mob: 9438246593
+\n \t b) Electrician
+\n \t \t Pradeep Kumar Parida
+\n \t \t Ph: 5003(O)
+\n \t \t Mob: 9778583627
+\n \t c) Electrician
+\n \t \t Harihar Maharana
+\n \t \t Ph: 5003(O)
+\n \t \t Mob: 8984149339
+\n \t d) Plumber
+\n \t \t Suresh Chandra Jena
+\n \t \t Mob: 9861061557
+\n \t e) CRB
+\n \t \t Saraswati Nath
+\n \t \t Mob: 9937715467
+\n \t \t Sabita Jena
+\n \t \t Mob: 9668611544
+\n \n
+         5.<b>KMS HALL OF RESIDENCE</b>
+\n \n
+\t a) Hall Genral Secretary
+\n \t \t Ms Yasmin Kukul(Room No. D/215)
+\n \t \t Mob: 9439007843
+\n \t b) Assistent Warden
+\n \t \t Prof. (Mrs)Ruchira Naskar
+\n \t \t Qrs. No. BF/12, NIT Campus
+\n \t \t Ph: 2368(O), 3368(R)
+\n \t \t Mob: 9438743204
+\n \t c) Warden
+\n \t \t Prof. (Mrs)Monalisa Mishra
+\n \t \t Qrs. No. D/20, NIT Campus
+\n \t \t Ph: 2784(O), 3665(R)
+\n \t \t Mob: 9583866756
+\n \t b) Electrician
+\n \t \t Pradeep Kumar Parida
+\n \t \t Ph: 5003(O)
+\n \t \t Mob: 9778583627
+\n \t c) Electrician
+\n \t \t Harihar Maharana
+\n \t \t Ph: 5003(O)
+\n \t \t Mob: 8984149339
+\n \t d) Plumber
+\n \t \t Suresh Chandra Jena
+\n \t \t Mob: 9861061557
+\n \t e) CRB
+\n \t \t Sangita Mohanty
+\n \t \t Mob: 9861258601
+\n \n
+    </string>
+    <string name="medical_info">MEDICAL EMERGENCY NUMBERS</string>
+    <string name="medical_emergency">
+        1.<b>MEDICAL EMERGENCY:</b> \n \n \t
+        a) Medical Vehicle:
+\n \t \t Sri Anup Mohanty
+\n \t \t Qrs. No. F/101, NIT Campus
+\n \t \t Ph: 2222 (R)
+\n \t \t Mob: 9437306577\n
+    \t b) CWS:  (0661) 2473931 ,2473927 \n
+    \t c) IGH: (0661) 2640324 \n
+        \t \t Ambulance : (0661) 2646202 \n
+        \t d) Apollo Pharmacy: \n
+\t \t Sri R. C. Behera
+\n \t \t Qrs. No. F/46, NIT Campus
+\n \t \t Ph: 2113 (O)
+\n \t \t Mob: 9937112457 \n \n
+         2.<b>DOCTORS:</b> \n \n
+\t  a) Dr. C. Bhattacharyya
+\n \t \t Head , Health Centre
+\n \t \t Qrs. No. D/4, NIT Campus
+\n \t \t Ph: 2111 (O), 3111 (R)
+\n \t \t Mob: 8895298094
+\n \t b) Dr. (Mrs.) Anindita Debata
+\n \t \t Qrs. No. FR/15, NIT Campus
+\n \t \t Ph: 2112 (O), 3112 (R)
+\n \t \t Mob: 9861303809
+\n \n
+    </string>
+    <string name="first_yr_book_list">BOOK LIST</string>
+    <string name="book_info">
+        1.<b>ENGINEERING MECHANICS:</b>
+        \n \n
+        \t <b>Essential Reading</b>:
+        \n \t \t a) S. P. Timoshenko, D. H. Young, and J. V. Rao:
+        \n \t \t Engineering Mechanics (Fourth edition),
+        \n \t \t Tata-McGraw Hill,
+        \n \t \t Special Indian Edition, 2007.
+        \n \t \t b) R. C. Hibbeler,
+        \n \t \t Engineering Mechanics
+        \n \t \t (Statics and Dynamics),
+        \n \t \t Pearson Education Asia Pvt. Ltd, 2000.
+        \n \t<b>Supplementary Reading</b>:
+        \n \t \t a) A.K. Tayal,
+        \n \t \t Engineering Mechanics,
+        \n \t \t Umesh Publications, Delhi, 11th edition, 2001.
+        \n \t \t b) F. P. Beer and E. R. Johnston,
+        \n \t \t Mechanics for Engineers (Static and Dynamics),
+        \n \t \t 7th edition,
+        \n \t \t McGraw Hill International Student Edition, 2003
+        \n \t \t c) J. L. Meriam and L.G. Kraige,
+        \n \t \t Engineering Mechanics (Static and Dynamics),
+        \n \t \t John Wiley, 2002.
+        \n \n
+        2.<b>ENVIRONMENT AND SAFETY ENGINEERING:</b>
+        \n \n
+        \t <b>Essential Reading</b>:
+        \n \t \t a) M. L. Davis and D. A Cornwell,
+        \n \t \t Introduction to Environmental Engineering,
+        \n \t \t McGraw Hill International,
+        \n \t \t 2005 Engineering Mechanics (Fourth edition),
+        \n \t \t Tata-McGraw Hill,
+        \n \t \t Special Indian Edition, 2007.
+        \n \t \t b)B. S. Dhillon, Engineering Safety: Fundamentals,
+        \n \t \t Techniques,
+        \n \t \t Applications,
+        \n \t \t World Scientific. 2003
+        \n \t<b>Supplementary Reading</b>:
+        \n \t \t a) G. Kiely,
+        \n \t \t Environmental Engineering,
+        \n \t \t McGraw Hill Int. 2004
+        \n \n
+        3.<b>BASIC ELECTRICAL ENGINEERING:</b>
+        \n \n
+        \t <b>Essential Reading</b>:
+        \n \t \t a) E. Hughes,
+        \n \t \t Electrical Technology, ELBS, 1997.
+        \n \t<b>Supplementary Reading</b>:
+        \n \t \t a) V. D. Toro,
+        \n \t \t Basic Electrical Engineering,
+        \n \t \t PHI, 2000.
+        \n \n
+        4.<b>COMMUNICATIVE ENGLISH:</b>
+        \n \n
+        \t <b>Essential Reading</b>:
+        \n \t \t a) Mukerjee, H. S. (2013).
+        \n \t \t Business Communication: Connecting at Work.
+        \n \t \t New Delhi: OUP.
+        \n \t \t b) Kumar Sanjay and Pushp Lata (2011),
+        \n \t \t Communication Skills, New Delhi: OUP.
+        \n \t<b>Supplementary Reading</b>:
+        \n \t \t a) Hart, Steve, Nair,
+        \n \t \t A. R. and Bhambhani V. (2016).
+        \n \t \t Embark: English for Undergraduates.
+        \n \t \t New Delhi: Cambridge University Press.
+        \n \t \t b) Clark, S and G. Pointon (2004).
+        \n \t \t Word for Word, New Delhi: OUP.
+        \n \t \t c) Nurnberg, M and M. Rosenblum (2000).
+        \n \t \t All about Words:
+        \n \t \t An Adult Approach to Vocabulary Building,
+        \n \t \t New Delhi:
+        \n \t \t W.R. Goyal Publishers and Distributors.
+        \n \n
+        5.<b>DIFFERENTIAL, INTEGRAL AND VECTOR CALCULUS (MATH I):</b>
+        \n \n
+        \t <b>Essential Reading</b>:
+        \n \t \t a) E. Kreyszig,
+        \n \t \t Advanced Engineering Mathematics,
+        \n \t \t 10th Edition, John Wiley and Sons, 2010.
+        \n \t \t b) T. M. Apostol,
+        \n \t \t Calculus, Volume I and II, 2nd Edition,
+        \n \t \t John Wiley and Sons, 1967.
+        \n \t \t c) Thomas and etc. ,
+        \n \t \t Thomas Calculus 12th Edition,
+        \n \t \t Pearson, 2015.
+        \n \n
+        6.<b>PHYSICS-I</b>
+        \n \n
+        \t <b>Essential Reading</b>:
+        \n \t \t a) A. Beiser,
+        \n \t \t Concept of Modern Physics ,
+        \n \t \t Tata-McGraw Hill, 6th edition (2009)
+        \n \t<b>Supplementary Reading</b>:
+        \n \t \t a) R. Resnick and R. Eisberg,
+        \n \t \t Quantum Physics: Of Atoms,
+        \n \t \t Molecules, Solids,
+        \n \t \t Nuclei And Particles, 2nd Edition
+        \n \t \t b) K.S. Krane,
+        \n \t \t Modern Physics,
+        \n \t \t Wiley, 3rd edition (2012)
+        \n \t \t c) D.J. Griffith,
+        \n \t \t Introduction to Quantum Mechanics,
+        \n \t \t Pearson (2007)
+        \n \t \t d) R. Resnick, Relativity,
+        \n \t \t Wiley Eastern Pvt. Ltd. (2007)
+        \n \n
+        7.<b>BASIC ELECTRONICS ENGINEERING</b>
+        \n \n
+        \t <b>Essential Reading</b>
+        \n \t \t a) Microelectronic Circuits,
+        \n \t \t Oxford University Press,
+        \n \t \t S. Sedra and K. C. Smith;
+        \n \t \t Sixth edition
+        \n \t \t b) Electronic Devices and Circuit,
+        \n \t \t Boylestad, Robert L., Louis Nashelsky,
+        \n \t \t Pearson Education India;
+        \n \t \t 11 editions (2015)
+        \n \t \t c) Digital Fundamentals,
+        \n \t \t Floyd, Pearson Education India;
+        \n \t \t 10 edition
+        \n \t \t d) Electronic Devices and Circuits:
+        \n \t \t David. A. Bell;
+        \n \t \t Oxford University Press, 5th Edn.
+        \n \t<b>Supplementary Reading:</b>
+        \n \t \t a) Electronics A Systems Approach,
+        \n \t \t Neil Storey 4th Edition, Pearson
+        \n \t \t b)Electronic Principles,
+        \n \t \t Tata McGraw Hill,
+        \n \t \t Albert Malvino and David J Bates;
+        \n \t \t 7th Edition
+        \n \t \t c) Morris Mano “Digital Computer Design”,
+        \n \t \t PHI 2003
+        \n \t \t d) Digital Principles and Applications,
+        \n \t \t Leach , Malvino, Saha,
+        \n \t \t McGraw Hill Education, Eighth edition
+        \n \n
+        8.<b>BIOLOGY</b>
+        \n \n
+        \t <b>Essential Reading</b>
+        \n \t \t a) Taylor DJ, Green NPO, Stout GW.
+        \n \t \t Biological Science.
+        \n \t \t 3rd edition (1997).
+        \n \t \t Cambridge University Press.
+        \n \t \t ISBN - 978-0521684170
+        \n \t \t b) Scott Freeman,
+        \n \t \t Biological Science,
+        \n \t \t 5th edition (2014).
+        \n \t \t Pearson, Boston.
+        \n \t \t ISBN 9780321743671.
+        \n \t \t c) Reece JB, Urry LA, Cain ML,
+        \n \t \t Wasserman SA, Minorsky PV, Jackson RB.
+        \n \t \t Campbell Biology: Global Edition.
+        \n \t \t 9th edition (2011).
+        \n \t \t Pearson. ISBN 978-0321739759
+        \n \t<b>Supplementary Reading</b>
+        \n \t \t a) Engner E, Ross R, Bailey D.
+        \n \t \t Concepts in Biology.
+        \n \t \t 11th edition (2005).
+        \n \t \t McGraw-Hill Education.
+        \n \t \t ISBN - 978-0070607484
+        \n \t \t b) Reece JB, Taylor MR,
+        \n \t \t Simon EJ, Dickey JL.
+        \n \t \t Campbell Biology:
+        \n \t \t Concepts and Connections,
+        \n \t \t Global Edition, 8th edition (2015),
+        \n \t \t Pearson, ISBN-9781292057804
+        \n \t \t c) Satyanarayana U, Chakrapani U.
+        \n \t \t Biochemistry. 4th edition (2013).
+        \n \n
+        9.<b>CHEMISTRY</b>
+        \n \n
+        \t <b>Essential Reading:</b>
+        \n \t \t a) P. W. Atkins,
+        \n \t \t Elements of Physical Chemistry,
+        \n \t \t 4th Ed., Oxford University Press,
+        \n \t \t 2007.
+        \n \t \t b) F. A. Carey, R. M. Guuliano,
+        \n \t \t Organic Chemistry,
+        \n \t \t Mcgraw-Hill, 6th edition,
+        \n \t \t 2006.
+        \n \t \t c) J.D. Lee,
+        \n \t \t Concise Inorganic Chemistry,
+        \n \t \t 5th edition, Blackwell Publishing,
+        \n \t \t 2008.
+        \n \t \t d) Fundamentals of molecular spectroscopy,
+        \n \t \t C. N. Banwell, E. N. McCash
+        \n \t \t Tata McGraw-Hill Education, 1994.
+        \n \t <b>Supplementary Reading:</b>
+        \n \t \t a) J. Singh, L.D.S. Yadav,
+        \n \t \t Advanced Organic Chemistry,
+        \n \t \t Pragati Prakashan, 2009.
+        \n \t \t b) J. E. Huheey, E. A. Keiter
+        \n \t \t and R. L. Keiter,
+        \n \t \t Inorganic Chemistry,
+        \n \t \t Principles of structure and reactivity,
+        \n \t \t Harper Collins, 1993.
+        \n \t \t c) Clayden, Greeves, Warren and Wothers,
+        \n \t \t Organic Chemistry,
+        \n \t \t Oxford, 2001.
+        \n \t \t d) B. R. Puri, L. R. Sharma,
+        \n \t \t M. S. Pathania,
+        \n \t \t Principles of physical Chemistry,
+        \n \t \t Shoban Lal Nagin Chand and Co., 2001.
+        \n \n
+        10.<b>MATHEMATICS-II</b>
+        \n \n
+        \t <b>Essential Reading:</b>
+        \n \t \t  a) E. Kreyszig,
+        \n \t \t  Advanced Engineering Mathematics,
+        \n \t \t  10th Edition,
+        \n \t \t  John Wiley and Sons, 2010.
+        \n \t<b>Suggested Readings:</b>
+        \n \t \t a) G. F. Simmons and S. G. Krantz,
+        \n \t \t Differential Equations:
+        \n \t \t Theory, Technique and Practice,
+        \n \t \t Tata McGraw-Hill Education, 2006.
+        \n \t \t b) G. Strang,
+        \n \t \t Linear Algebra and its applications,
+        \n \t \t 4th Edition,
+        \n \t \t Cengage Learning, 2005.
+        \n \t \t c) K. Hoffman and R. A. Kunze,
+        \n \t \t Linear Algebra,
+        \n \t \t Prentice Hall of India, 2002.
+        \n \t \t d) Kawk And Hong,
+        \n \t \t Linear Algebra
+        \n \t \t e) N. Piskunuv,
+        \n \t \t Differential and Integral Calculus
+        \n \n
+        11.<b>PHYSICS-II</b>
+        \n \n
+        \t <b>Essential Reading:</b>
+        \n \t \t a) A. Beiser,
+        \n \t \t Concept of Modern Physics ,
+        \n \t \t Tata-McGraw Hill,
+        \n \t \t 6th edition (2009)
+        \n \t<b>Supplementary Reading:</b>
+        \n \t \t a) R. Resnick and R. Eisberg,
+        \n \t \t Quantum Physics:
+        \n \t \t of Atoms, Molecules, Solids,
+        \n \t \t Nuclei and Particles,
+        \n \t \t 2nd Edition
+        \n \t \t b) K.S. Krane,
+        \n \t \t Modern Physics,
+        \n \t \t Wiley, 3rd edition (2012)
+        \n \t \t c) A. J. Dekker,
+        \n \t \t Solid State Physics,
+        \n \t \t (Prentice-Hall of India).
+        \n \t \t d) M. A. Wahab,
+        \n \t \t Solid State Physics:
+        \n \t \t Structure and
+        \n \t \t Properties of Materials,
+        \n \t \t Narosa Publishing House
+        \n \n
+        12.<b>BASIC PROGRAMMING and DATA STRUCTURE</b>
+        \n \n
+        \t \t a) Byron S. Gottfried,
+        \n \t \t Theory and Problems of
+        \n \t \t Programming With C,
+        \n \t \t McGraw Hill Education, 3 ed, 2010.
+        \n \t \t b) Ashok N. Kamthane and
+        \n \t \t Amit A. Kamthane,
+        \n \t \t Programming in C,
+        \n \t \t Pearson Education, 3 ed, 2016.
+        \n \n
+    </string>
+    <string name="important_phone_numbers">IMPORTANT PHONE NUMBERS</string>
+    <string name="contact_info">
+1.<b>ACADEMIC PURPOSES:</b>
+\n \n
+\t a) Director
+\n \t \t Prof. Animesh Biswas
+\n \t \t Office: 2003
+\n \t \t Chamber: 2001
+\n \t \t Res:  3001
+\n \t \t Ph : 2472050[O]
+\n \t \t \t 2472081[R]
+\n \t \t \t 2472926[Fax]
+\n \t b) Deputy Registrar [Academic]:
+\n \t \t Office: 2032
+\n \t \t Chamber: 2031
+\n \t \t Res:  3031
+\n \t \t Ph: 2462039[Fax]
+\n \n
+        2.<b>EMERGENCY:</b>
+\n \n
+\t a) Security Officer
+\n \t \t Prof. Uttam K. Mishra
+\n \t \t Qrs. No. D - 09, NIT Campus
+\n \t \t Ph: 2310 (O), 3310 (R)
+\n \t \t Mob: 9437684846
+\n \t b) Counselor
+\n \t \t Kalyani Mishra
+\n \t \t Mob: 9861074304
+\n \t c) Fire
+\n \t \t  Ph : 101, (0661) 2501201, 2510095
+\n \t d) Rourkela General Hospital
+\n \t \t Ph : 2502039
+\n \t e) RGH Blood Bank
+\n \t \t Ph : 2508770
+\n \t f) Sector-3 Police station
+\n \t \t Ph : 2646227
+\n \t g) Mahila Police station
+\n \t \t Ph : 2647800
+\n \n
+        3.<b>MEDICAL EMERGENCY:</b> \n \n \t
+        a) Medical Vehicle:
+\n \t \t Sri Anup Mohanty
+\n \t \t Qrs. No. F/101, NIT Campus
+\n \t \t Ph: 2222 (R)
+\n \t \t Mob: 9437306577\n
+    \t b) CWS:  (0661) 2473931 ,2473927 \n
+    \t c) IGH: (0661) 2640324 \n
+        \t \t Ambulance : (0661) 2646202 \n
+        \t d) Apollo Pharmacy: \n
+\t \t Sri R. C. Behera
+\n \t \t Qrs. No. F/46, NIT Campus
+\n \t \t Ph: 2113 (O)
+\n \t \t Mob: 9937112457 \n \n
+         4.<b>DOCTORS:</b> \n \n
+\t  a) Dr. C. Bhattacharyya
+\n \t \t Head , Health Centre
+\n \t \t Qrs. No. D/4, NIT Campus
+\n \t \t Ph: 2111 (O), 3111 (R)
+\n \t \t Mob: 8895298094
+\n \t b) Dr. (Mrs.) Anindita Debata
+\n \t \t Qrs. No. FR/15, NIT Campus
+\n \t \t Ph: 2112 (O), 3112 (R)
+\n \t \t Mob: 9861303809
+\n \n
+        5.<b>ESSENTIAL STORES : </b> \n \n
+\t a) JD (The one stop stationery store)
+\n \t \t Ph: 8895025848
+\n \t b) AMUL ( for your dairy cravings )
+\n \t \t Ph: 9040666461
+\n \t b) JAM ( home delivery at Rs. 20 )
+\n \t \t Ph: 9937497447
+\n \n
+    </string>
+
+    <string name="country_prompt">Choose a country</string>
+
+    <string-array name="country_arrays">
+        <item>Academics</item>
+        <item>Hostel</item>
+        <item>Medical</item>
+        <item>Library</item>
+        <item>Others</item>
+
+    </string-array>
+
+</resources>

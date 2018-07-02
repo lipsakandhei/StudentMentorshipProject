@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:text="@string/acad"
+        android:id="@+id/main_text"
+        android:nestedScrollingEnabled="false"
+        android:textSize="20sp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="false"
+        android:textAlignment="center"
+        android:textIsSelectable="true"
+        android:layout_below="@+id/head"
+        android:layout_alignParentBottom="true"
+        android:allowUndo="false"
+        android:textColor="#0000ff"
+        android:focusable="false"
+        android:focusableInTouchMode="false" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/acad_info_head"
+        android:id="@+id/head"
+        android:nestedScrollingEnabled="false"
+        android:textSize="15sp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="false"
+        android:textIsSelectable="true"
+        android:layout_below="@+id/scrollView1"
+        android:layout_alignParentBottom="true"
+        android:allowUndo="false" />
+
+    <Button
+        android:id="@+id/booklist"
+        android:layout_width="115dp"
+        android:layout_height="wrap_content"
+        android:text="BookList" />
+
+    <ScrollView
+        android:id="@+id/scrollacad"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="90">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/details"
+                android:layout_width="match_parent"
+                android:layout_height="347dp"
+                android:singleLine="false"
+                android:text="@string/acad_info"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textIsSelectable="true"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
